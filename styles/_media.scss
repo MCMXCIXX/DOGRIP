@@ -41,6 +41,7 @@
 	}
 	.news__img {
 		margin-top: 96px;
+		margin-bottom: 0;
 	}
 	.news {
 		justify-content: center;
@@ -51,7 +52,7 @@
 	.rip {
 		display: flex;
 		justify-content: center;
-		height: 660px;
+		height: 300px;
 		background-size: cover;
 	}
 	.rip .main__text {
@@ -62,5 +63,11 @@
 	}
 	.rip .pay {
 		display: none;
+	}
+	.rip {
+		background-image: url(../images/rip-bg-small.png);
+		background-repeat: no-repeat;
+		background-position: top left;
+		justify-content: start;
 	}
 }

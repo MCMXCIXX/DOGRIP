@@ -31,7 +31,7 @@ a {
 
 	text-align: center;
 	text-shadow: 12px 12px 0px #000;
-	-webkit-text-stroke: 7px;
+	-webkit-text-stroke: 3px;
 	// -webkit-text-stroke-width: 13px;
 	-webkit-text-stroke-color: #fff;
 	font-size: 100px;
@@ -42,6 +42,7 @@ a {
 	max-width: 968px;
 	margin-top: 92px;
 	animation: main-title 3s ease infinite;
+	padding: 0 15px;
 }
 .main__title span {
 	color: #ff8a00;
